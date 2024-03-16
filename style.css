@@ -45,6 +45,24 @@ body{
     top: 45%;
 }
 
+.line1 {
+    height: 5px;
+    width: 400px;
+    background-color: #333;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.line2 {
+    height: 5px;
+    width: 400px;
+    background-color: #333;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+}
+
 #fun {
     position: absolute;
     width: 460px;
@@ -52,7 +70,6 @@ body{
     top: 80%;
     left: 10%;
     border: 6px solid #333;
-    border-top-left-radius: 80px;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
     padding: 40px;
@@ -74,8 +91,8 @@ body{
     width: 50px;
     height: 50px;
     border: 5px solid #333;
-    left: 25%;
-    top: 25%;
+    left: 90%;
+    top: 40%;
 }
 .circle2 {
     position: absolute;
@@ -83,18 +100,44 @@ body{
     width: 25px;
     height: 25px;
     background-color: #333;
-    left: 25%;
-    top: 25%;
+    left: 85%;
+    top: 28%;
+}
+.circle3{
+    position: absolute;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: 10px solid #333;
+    left: 57%;
+    top: 40%;
 }
 .square1 {
     position: absolute;
     width: 50px;
     height: 50px;
     border: 5px solid #333;
-    left: 100%;
+    left: 90%;
     top: 25%;
     rotate: 20deg;
 }
-.fav {
-    border-radius: 100%;
+.shape{
+    position: absolute;
+    background-color: #333;
+    height: 250px;
+    width: 200px;
+    left: 5%;
+    top: 150%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
+.arrow-up {
+    position: absolute;
+    width: 20px; 
+    height: 20px; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    left: 25%;
+    top: 25%;
+  }
